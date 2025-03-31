@@ -1,0 +1,21 @@
+id_magasin,nom_magasin,adresse,ville,region,surface,date_ouverture
+601,Paris Centre,12 Rue de Rivoli,Paris,Île-de-France,1200,2015-06-15
+602,Lyon Part-Dieu,Niveau 2 Centre Commercial,Lyon,Auvergne-Rhône-Alpes,950,2017-03-22
+603,Marseille Vieux Port,45 Quai des Belges,Marseille,Provence-Alpes-Côte d'Azur,850,2018-11-10
+604,Bordeaux Quinconces,30 Cours du Médoc,Bordeaux,Nouvelle-Aquitaine,1100,2016-09-05
+605,Nice Jean Médecin,78 Avenue Jean Médecin,Nice,Provence-Alpes-Côte d'Azur,700,2019-04-18
+606,Toulouse Capitole,15 Place du Capitole,Toulouse,Occitanie,900,2017-08-12
+607,Lille Grand Place,5 Rue de la Grande Rue,Lille,Hauts-de-France,800,2018-05-30
+608,Strasbourg Centre,22 Rue des Grandes Arcades,Strasbourg,Grand Est,750,2019-02-14
+609,Nantes Commerce,10 Rue du Calvaire,Nantes,Pays de la Loire,1000,2016-11-20
+610,Rennes Sainte-Anne,8 Place Sainte-Anne,Rennes,Bretagne,850,2018-07-10
+611,Montpellier Comédie,5 Place de la Comédie,Montpellier,Occitanie,780,2019-09-05
+612,Amiens Hortillonnages,25 Rue des Hortillonnages,Amiens,Hauts-de-France,650,2020-01-15
+613,Reims Drouet d'Erlon,40 Place Drouet d'Erlon,Reims,Grand Est,720,2017-10-22
+614,Dijon Darcy,15 Rue Darcy,Dijon,Bourgogne-Franche-Comté,680,2018-04-18
+615,Angers Ralliement,7 Place du Ralliement,Angers,Pays de la Loire,700,2019-03-12
+616,Grenoble Victor Hugo,12 Boulevard Victor Hugo,Grenoble,Auvergne-Rhône-Alpes,750,2017-12-05
+617,Caen Vaugueux,3 Rue du Vaugueux,Caen,Normandie,600,2020-02-28
+618,Brest Recouvrance,18 Rue de Recouvrance,Brest,Bretagne,650,2018-08-15
+619,Clermont-Ferrand Jaude,9 Place de Jaude,Clermont-Ferrand,Auvergne-Rhône-Alpes,800,2017-05-10
+620,Poitiers Centre,11 Rue des Cordeliers,Poitiers,Nouvelle-Aquitaine,700,2019-06-20

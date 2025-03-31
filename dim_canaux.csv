@@ -1,0 +1,6 @@
+id_canal,nom_canal,type_canal
+1,Site Web,Online
+2,Application Mobile,Online
+3,Magasin Physique,Offline
+4,Marketplace (Amazon),Online
+5,Téléphone,Offline

@@ -1,0 +1,187 @@
+1. Tables de Dimensions
+Les dimensions fournissent le contexte pour analyser les données de vos tables de faits. Ce sont des référentiels descriptifs.
+
+A. dim_clients
+À quoi ça sert ?
+
+Segmenter les clients (VIP/Standard/Nouveau)
+
+Analyser les comportements par canal d’acquisition
+
+Calculer l’ancienneté des clients
+
+Contenu type :
+
+Colonne	Exemple	Description
+id_client (PK)	101	Identifiant unique
+segment	"VIP"	Niveau de fidélité
+canal_acquisition	"Magasin"	Où le client a été acquis
+date_inscription	2023-01-15	Date de première interaction
+ville	"Paris"	Localisation pour analyse géographique
+Exemple d’analyse :
+
+sql
+Copy
+-- Taux de rétention par segment
+SELECT segment, AVG(DATEDIFF(day, date_inscription, CURRENT_DATE)) AS anciennete_moyenne
+FROM dim_clients
+GROUP BY segment;
+
+
+B. dim_produits
+À quoi ça sert ?
+
+Analyser les ventes par catégorie/marque
+
+Calculer les marges bénéficiaires
+
+Identifier les produits phares
+
+Contenu type :
+
+Colonne	Exemple	Description
+id_produit (PK)	501	Identifiant unique
+categorie	"Électronique"	Grande famille de produits
+prix_unitaire	450.00	Prix de vente
+cout_production	320.00	Coût pour calculer la marge
+Exemple d’analyse :
+
+sql
+Copy
+-- Marge brute par catégorie
+SELECT categorie, SUM(prix_unitaire - cout_production) AS marge_brute
+FROM dim_produits
+GROUP BY categorie;
+
+
+
+C. dim_magasins
+À quoi ça sert ?
+
+Comparer les performances entre magasins
+
+Analyser l’impact de la surface de vente
+
+Contenu type :
+
+Colonne	Exemple	Description
+id_magasin (PK)	601	Identifiant unique
+ville	"Lyon"	Localisation
+surface	950	Taille en m²
+Exemple d’analyse :
+
+sql
+Copy
+-- CA moyen par m² de surface
+SELECT ville, SUM(montant)/SUM(surface) AS ca_par_m2
+FROM fait_ventes
+JOIN dim_magasins USING(id_magasin)
+GROUP BY ville;
+
+
+D. dim_temps
+À quoi ça sert ?
+
+Analyser les tendances saisonnières
+
+Comparer les performances jour/weekend
+
+Contenu type :
+
+Colonne	Exemple	Description
+id_temps (PK)	20230301	Format AAAAMMJJ
+est_weekend	1	Booléen (1=weekend)
+trimestre	2	Q1, Q2, Q3, Q4
+Exemple d’analyse :
+
+sql
+Copy
+-- CA comparé : semaine vs weekend
+SELECT est_weekend, SUM(montant) AS ca_total
+FROM fait_ventes
+JOIN dim_temps USING(id_temps)
+GROUP BY est_weekend;
+
+
+E. dim_canaux
+À quoi ça sert ?
+
+Comparer l’efficacité des canaux (magasin vs online)
+
+Optimiser le budget marketing
+
+Contenu type :
+
+Colonne	Exemple	Description
+id_canal (PK)	3	Identifiant unique
+nom_canal	"Magasin Physique"	Description lisible
+
+
+
+2. Tables de Faits
+Elles contiennent les événements mesurables liés à votre activité.
+
+A. fait_ventes
+À quoi ça sert ?
+
+Calculer le chiffre d’affaires
+
+Analyser le panier moyen
+
+Contenu type :
+
+Colonne	Exemple	Description
+id_vente (PK)	1001	Identifiant unique
+id_client (FK)	101	Lien vers dim_clients
+montant	150.99	Montant de la transaction
+Exemple d’analyse :
+
+sql
+Copy
+-- Top 10 clients VIP par CA
+SELECT nom, SUM(montant) AS ca_total
+FROM fait_ventes
+JOIN dim_clients USING(id_client)
+WHERE segment = 'VIP'
+GROUP BY nom
+ORDER BY ca_total DESC
+LIMIT 10;
+
+
+B. fait_interactions
+À quoi ça sert ?
+
+Suivre le parcours client (email, clicks, visites)
+
+Mesurer l’engagement avant achat
+
+Contenu type :
+
+Colonne	Exemple	Description
+type_interaction	"Email"	Nature de l’interaction
+action	"Clic"	Détail de l’action
+
+
+C. fait_fidelite
+À quoi ça sert ?
+
+Évaluer l’efficacité du programme de fidélité
+
+Suivre l’utilisation des points
+
+Contenu type :
+
+Colonne	Exemple	Description
+points_acquis	200	Points gagnés
+recompense	"Réduction 10%"	Avantage utilisé
+
+
+
+3. Pourquoi cette Structure ?
+Modèle en étoile : Simplifie les requêtes et optimise les performances.
+
+Réutilisable : Les dimensions servent pour toutes les analyses.
+
+Cohérence : Pas de doublons (ex : un client = une ligne dans dim_clients).
+
+

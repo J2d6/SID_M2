@@ -1,0 +1,41 @@
+id_interaction,id_client,id_canal,id_temps,type_interaction,action,duree_seconds,page_vue
+1,95,1,20230110,Email,Ouverture,,
+2,96,2,20230305,Notification,Clic,,"Produit 502"
+3,97,3,20230312,Visite Magasin,Achat,600,
+4,98,1,20230401,Email,Clic,,"Promotions"
+5,99,2,20230518,Notification,Ouverture,,
+6,100,1,20230520,Email,Achat,,"Panier"
+7,101,3,20230117,Visite Magasin,Achat,1200,
+8,102,1,20230318,Email,Ouverture,,
+9,103,3,20230322,Visite Magasin,Achat,900,
+10,104,1,20230328,Email,Clic,,"Nouveautés"
+11,105,2,20230403,Notification,Achat,,"Produit 511"
+12,106,1,20230408,Email,Ouverture,,
+13,107,3,20230412,Visite Magasin,Achat,1800,
+14,108,4,20230418,Marketplace,Achat,,"Produit 514"
+15,109,1,20230522,Email,Clic,,"Soldes"
+16,110,3,20230524,Visite Magasin,Achat,1500,
+17,111,1,20230526,Email,Ouverture,,
+18,112,3,20230528,Visite Magasin,Achat,800,
+19,113,2,20230529,Notification,Clic,,"Produit 519"
+20,114,3,20230531,Visite Magasin,Achat,2000,
+21,115,1,20230301,Email,Clic,,"Nouveautés"
+22,116,3,20230305,Visite Magasin,Achat,750,
+23,117,2,20230312,Notification,Ouverture,,
+24,118,1,20230318,Email,Achat,,"Panier"
+25,119,3,20230322,Visite Magasin,Achat,1100,
+26,120,4,20230325,Marketplace,Clic,,"Produit 506"
+27,121,1,20230328,Email,Ouverture,,
+28,122,3,20230330,Visite Magasin,Achat,950,
+29,123,2,20230402,Notification,Clic,,"Promo Printemps"
+30,124,1,20230408,Email,Achat,,"Soldes"
+31,125,3,20230412,Visite Magasin,Achat,1300,
+32,126,1,20230415,Email,Ouverture,,
+33,127,2,20230418,Notification,Achat,,"Produit 513"
+34,128,3,20230422,Visite Magasin,Achat,850,
+35,129,4,20230425,Marketplace,Ouverture,,
+36,130,1,20230428,Email,Clic,,"Livraison offerte"
+37,131,3,20230502,Visite Magasin,Achat,1600,
+38,132,2,20230505,Notification,Ouverture,,
+39,133,1,20230508,Email,Achat,,"Dernière chance"
+40,134,3,20230512,Visite Magasin,Achat,700,

@@ -1,0 +1,21 @@
+id_produit,nom_produit,categorie,sous_categorie,marque,prix_unitaire,cout_production
+501,Smartphone Galaxy A54,Électronique,Téléphonie,Samsung,450.00,320.00
+502,Cafetière Expresso Delonghi,Électroménager,Cafetières,Delonghi,129.99,75.00
+503,Jean Slim Pierre,Mode,Vêtements,Levis,79.90,35.00
+504,Robot Aspirateur X8,Électroménager,Robots,iRobot,349.00,210.00
+505,Crème Hydratante Visage,Beauté,Soins,Nivea,12.50,4.80
+506,Table Basse Chêne,Meubles,Salon,Ikea,179.00,95.00
+507,Paire de Basket Runner,Mode,Chaussures,Adidas,89.90,42.00
+508,Livre "L'Alchimiste",Culture,Livres,Éditions XYZ,14.90,6.50
+509,Casque Bluetooth WH-1000,Électronique,Audio,Sony,299.00,185.00
+510,Kit de Maquillage Profesionnel,Beauté,Maquillage,Maybelline,49.90,22.00
+511,Console de Jeu Portable,Électronique,Jeux,Nintendo,249.00,170.00
+512,Sac à Dos Voyage,Mode,Accessoires,Eastpak,59.90,28.00
+513,TV LED 55" 4K,Électronique,Téléviseurs,LG,599.00,380.00
+514,Parfum Eau de Toilette,Beauté,Parfums,Chanel,89.90,45.00
+515,Chaise de Bureau Ergonomique,Meubles,Bureau,Ergotopia,199.00,120.00
+516,Montre Connectée,Électronique,Accessoires,Huawei,149.00,90.00
+517,Casserole Inox 20cm,Électroménager,Cuisine,Tefal,39.90,18.00
+518,Enceinte Bluetooth,Électronique,Audio,JBL,79.90,45.00
+519,Tondeuse à Barbe,Électroménager,Beauté,Philips,59.90,30.00
+520,Planche à Découper Bambou,Équipement,Cuisine,Joseph Joseph,24.90,9.50

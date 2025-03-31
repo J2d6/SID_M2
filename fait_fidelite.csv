@@ -1,0 +1,41 @@
+id_operation,id_client,id_temps,type_operation,points_acquis,points_utilises,recompense
+1,95,20230115,Inscription,100,0,
+2,96,20230310,Utilisation Points,0,50,"Réduction 5€"
+3,97,20230315,Inscription,100,0,
+4,98,20230405,Utilisation Points,0,100,"Cadeau VIP"
+5,99,20230520,Inscription,100,0,
+6,100,20230522,Utilisation Points,0,25,"Livraison gratuite"
+7,101,20230120,Inscription,100,0,
+8,102,20230320,Utilisation Points,0,75,"Produit gratuit"
+9,103,20230325,Inscription,100,0,
+10,104,20230330,Utilisation Points,0,50,"Réduction 10%"
+11,105,20230401,Inscription,100,0,
+12,106,20230410,Utilisation Points,0,30,"Échantillon"
+13,107,20230415,Inscription,200,0,
+14,108,20230420,Utilisation Points,0,150,"Week-end VIP"
+15,109,20230501,Inscription,100,0,
+16,110,20230505,Utilisation Points,0,80,"Accès early"
+17,111,20230510,Inscription,100,0,
+18,112,20230515,Utilisation Points,0,40,"Goodies"
+19,113,20230525,Inscription,100,0,
+20,114,20230530,Utilisation Points,0,60,"Parrainage"
+21,115,20230301,Inscription,100,0,
+22,116,20230305,Utilisation Points,0,60,"Réduction 8€"
+23,117,20230312,Inscription,100,0,
+24,118,20230318,Utilisation Points,0,40,"Cadeau surprise"
+25,119,20230322,Inscription,150,0,
+26,120,20230325,Utilisation Points,0,75,"Atelier VIP"
+27,121,20230328,Inscription,100,0,
+28,122,20230330,Utilisation Points,0,90,"Early access"
+29,123,20230402,Inscription,100,0,
+30,124,20230408,Utilisation Points,0,30,"Echantillon"
+31,125,20230412,Inscription,200,0,
+32,126,20230415,Utilisation Points,0,110,"Week-end offert"
+33,127,20230418,Inscription,100,0,
+34,128,20230422,Utilisation Points,0,45,"Goodies exclusifs"
+35,129,20230425,Inscription,100,0,
+36,130,20230428,Utilisation Points,0,65,"Parrainage +"
+37,131,20230502,Inscription,150,0,
+38,132,20230505,Utilisation Points,0,80,"Service premium"
+39,133,20230508,Inscription,100,0,
+40,134,20230512,Utilisation Points,0,50,"Réduction 12%"

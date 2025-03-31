@@ -1,0 +1,67 @@
+id_client,nom,prenom,email,telephone,date_inscription,segment,canal_acquisition,ville,code_postal,pays
+95,Dupont,Jean,jean.dupont@email.com,0612345678,2023-01-15,VIP,Magasin,Paris,75001,France
+96,Martin,Alice,alice.martin@email.com,0698765432,2023-06-20,Standard,En ligne,Lyon,69002,France
+97,Bernard,Pierre,pierre.bernard@email.com,0623456789,2024-02-10,Nouveau,Parrainage,Marseille,13001,France
+98,Petit,Sophie,sophie.petit@email.com,0634567890,2022-11-05,VIP,Magasin,Toulouse,31000,France
+99,Moreau,Luc,luc.moreau@email.com,0645678901,2023-09-30,Standard,En ligne,Nantes,44000,France
+100,Lefebvre,Marie,marie.lefebvre@email.com,0656789012,2024-01-22,Nouveau,En ligne,Strasbourg,67000,France
+101,Dubois,Claire,claire.dubois@email.com,0611223344,2023-01-10,VIP,Magasin,Paris,75001,France
+102,Roux,Thomas,thomas.roux@email.com,0622334455,2023-03-15,Standard,En ligne,Lyon,69002,France
+103,Blanc,Emma,emma.blanc@email.com,0633445566,2024-01-20,Nouveau,Parrainage,Marseille,13001,France
+104,Leclerc,Hugo,hugo.leclerc@email.com,0644556677,2022-11-05,VIP,Magasin,Toulouse,31000,France
+105,Girard,Lucie,lucie.girard@email.com,0655667788,2023-09-12,Standard,En ligne,Nantes,44000,France
+106,Morel,Antoine,antoine.morel@email.com,0666778899,2024-02-18,Nouveau,En ligne,Strasbourg,67000,France
+107,Fournier,Zoé,zoe.fournier@email.com,0677889900,2023-05-22,VIP,Magasin,Bordeaux,33000,France
+108,Leroy,Nathan,nathan.leroy@email.com,0688990011,2023-07-30,Standard,Parrainage,Lille,59000,France
+109,Martinez,Inès,ines.martinez@email.com,0699001122,2024-01-05,Nouveau,En ligne,Rennes,35000,France
+110,David,Louis,louis.david@email.com,0600112233,2022-12-15,VIP,Magasin,Nice,06000,France
+111,Bertrand,Chloé,chloe.bertrand@email.com,0611223345,2023-04-10,Standard,En ligne,Grenoble,38000,France
+112,Moreau,Jules,jules.moreau@email.com,0622334456,2024-02-22,Nouveau,Magasin,Montpellier,34000,France
+113,Simon,Manon,manon.simon@email.com,0633445567,2023-06-18,VIP,En ligne,Strasbourg,67000,France
+114,Laurent,Paul,paul.laurent@email.com,0644556678,2022-10-05,Standard,Magasin,Toulon,83000,France
+115,Petit,Léa,lea.petit@email.com,0655667789,2023-08-12,Nouveau,Parrainage,Amiens,80000,France
+116,Michel,Hugo,hugo.michel@email.com,0666778900,2024-01-25,VIP,Magasin,Reims,51100,France
+117,Dufour,Camille,camille.dufour@email.com,0677889011,2023-03-30,Standard,En ligne,Le Havre,76600,France
+118,Lambert,Mathis,mathis.lambert@email.com,0688990122,2024-02-10,Nouveau,En ligne,Saint-Étienne,42000,France
+119,Royer,Juliette,juliette.royer@email.com,0699001233,2022-11-20,VIP,Magasin,Tours,37000,France
+120,Fontaine,Adam,adam.fontaine@email.com,0600112344,2023-09-15,Standard,Parrainage,Clermont-Ferrand,63000,France
+121,Chevalier,Léna,lena.chevalier@email.com,0611223456,2024-01-08,Nouveau,En ligne,Limoges,87000,France
+122,Vidal,Enzo,enzo.vidal@email.com,0622334567,2023-05-10,VIP,Magasin,Dijon,21000,France
+123,Brun,Marie,marie.brun@email.com,0633445678,2022-12-18,Standard,En ligne,Angers,49000,France
+124,Colin,Maxime,maxime.colin@email.com,0644556789,2023-07-22,Nouveau,Magasin,Brest,29200,France
+125,Gauthier,Lola,lola.gauthier@email.com,0655667890,2024-02-05,VIP,En ligne,Le Mans,72000,France
+126,Legrand,Raphaël,raphael.legrand@email.com,0666778901,2023-04-15,Standard,Magasin,Aix-en-Provence,13090,France
+127,François,Sarah,sarah.francois@email.com,0677889012,2024-01-30,Nouveau,Parrainage,Annecy,74000,France
+128,Muller,Quentin,quentin.muller@email.com,0688990123,2022-10-10,VIP,En ligne,Perpignan,66000,France
+129,Boyer,Louise,louise.boyer@email.com,0699001234,2023-08-05,Standard,Magasin,Béziers,34500,France
+130,André,Noah,noah.andre@email.com,0600112345,2024-02-15,Nouveau,En ligne,Poitiers,86000,France
+131,Henry,Clara,clara.henry@email.com,0611223457,2023-02-20,VIP,Magasin,La Rochelle,17000,France
+132,Bonnet,Théo,theo.bonnet@email.com,0622334568,2022-11-12,Standard,Parrainage,Bourges,18000,France
+133,Marchal,Julie,julie.marchal@email.com,0633445679,2023-10-25,Nouveau,En ligne,Valence,26000,France
+134,Faure,Benjamin,benjamin.faure@email.com,0644556780,2024-01-18,VIP,Magasin,Arles,13200,France
+135,Dupuy,Maëlys,maelys.dupuy@email.com,0655667891,2023-06-30,Standard,En ligne,Cannes,06400,France
+136,Barbier,Alexandre,alexandre.barbier@email.com,0666778902,2024-02-08,Nouveau,Magasin,Calais,62100,France
+137,Arnaud,Charlotte,charlotte.arnaud@email.com,0677889013,2022-09-15,VIP,Parrainage,Colmar,68000,France
+138,Pierre,Lucas,lucas.pierre@email.com,0688990124,2023-07-10,Standard,En ligne,Ajaccio,20000,France
+139,Lecomte,Élise,elise.lecomte@email.com,0699001235,2024-01-22,Nouveau,Magasin,Bastia,20200,France
+140,Renard,Hugo,hugo.renard@email.com,0600112346,2023-03-05,VIP,En ligne,Chambéry,73000,France
+141,Schmitt,Inès,ines.schmitt@email.com,0611223458,2022-12-22,Standard,Magasin,Bayonne,64100,France
+142,Weber,Max,max.weber@email.com,0622334569,2023-09-18,Nouveau,Parrainage,Évreux,27000,France
+143,Guerin,Jeanne,jeanne.guerin@email.com,0633445670,2024-02-12,VIP,En ligne,Brive-la-Gaillarde,19100,France
+144,Caron,Timothée,timothee.caron@email.com,0644556781,2023-05-25,Standard,Magasin,Châteauroux,36000,France
+145,Noël,Léonie,leonie.noel@email.com,0655667892,2022-10-30,Nouveau,En ligne,Charleville-Mézières,08000,France
+146,Meyer,Tom,tom.meyer@email.com,0666778903,2023-08-15,VIP,Magasin,Sète,34200,France
+147,Perrot,Anaïs,anais.perrot@email.com,0677889014,2024-01-10,Standard,Parrainage,Albi,81000,France
+148,Adam,Louna,louna.adam@email.com,0688990125,2023-04-20,Nouveau,En ligne,La Roche-sur-Yon,85000,France
+149,Paris,Mathéo,matheo.paris@email.com,0699001236,2022-11-08,VIP,Magasin,Vannes,56000,France
+150,Maillard,Lilou,lilou.maillard@email.com,0600112347,2023-10-12,Standard,En ligne,Chartres,28000,France
+201,Delacroix,Antoine,antoine.delacroix@mail.com,0612345987,2023-02-14,VIP,Magasin,Rouen,76000,France
+202,Bernard,Elodie,elodie.bernard@mail.com,0623456781,2023-04-25,Standard,En ligne,Avignon,84000,France
+203,Rivière,Théo,theo.riviere@mail.com,0634567812,2024-01-30,Nouveau,Parrainage,Dunkerque,59140,France
+204,Lemoine,Amélie,amelie.lemoine@mail.com,0645678123,2022-12-05,VIP,Magasin,Poitiers,86000,France
+205,Perrin,Baptiste,baptiste.perrin@mail.com,0656781234,2023-08-18,Standard,En ligne,Annecy,74000,France
+206,Jacquet,Manon,manon.jacquet@mail.com,0667812345,2024-03-10,Nouveau,En ligne,Bayonne,64100,France
+207,Guillot,Lucas,lucas.guillot@mail.com,0678123456,2023-05-22,VIP,Magasin,Brive-la-Gaillarde,19100,France
+208,Brunet,Chloé,chloe.brunet@mail.com,0681234567,2023-07-15,Standard,Parrainage,Valence,26000,France
+209,Martineau,Léa,lea.martineau@mail.com,0692345678,2024-02-28,Nouveau,En ligne,Sète,34200,France
+210,Garnier,Maxime,maxime.garnier@mail.com,0603456789,2022-11-20,VIP,Magasin,Albi,81000,France
